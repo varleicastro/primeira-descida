@@ -1,0 +1,97 @@
+/* Reset e base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d1b2a; /* azul escuro */
+  color: #ffffff;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1b263b;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #1b263b;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  background-color: #1b263b;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+/* Página Times (cards) */
+.teams-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+  background-color: #0d1b2a;
+}
+
+.team-entry {
+  background-color: #1b263b;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding: 10px 15px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.team-entry:hover {
+  transform: scale(1.03);
+  background-color: #415a77;
+}
+
+.team-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  object-fit: contain;
+}
